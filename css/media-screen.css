@@ -1,0 +1,102 @@
+@media screen and (max-width: 980px) {
+  /* about section start */
+  #about .profil-photo .border {
+    width: 90%;
+    border: none;
+    margin-bottom: 40px;
+  }
+  #about .profil-photo .border .inner {
+    top: 0px;
+    left: 0px;
+  }
+  /* about section end */
+
+  /* our services section start */
+  #ourServices .cards .card {
+    width: 50%;
+  }
+  #ourPortfolio .products .inner {
+    width: 50%;
+  }
+  /* our services section start */
+}
+
+@media screen and (max-width: 830px) {
+  /* .container {
+        width: 70%;
+    } */
+  /* navbar start */
+  #navbar ul {
+    display: none;
+  }
+  #navbar .lines {
+    display: block;
+  }
+  /* navbar end */
+
+  /* home section start */
+  #home .info h1 {
+    font-size: 40px;
+  }
+  #home .info h3 {
+    font-size: 18px;
+  }
+  #home .info h4 {
+    font-size: 19px;
+  }
+  /* home section start */
+
+  /* about section start */
+  #about .about-area,
+  #about .profil-photo {
+    width: 100%;
+  }
+  #about .profil-photo .border {
+    width: 100%;
+  }
+  /* about section end */
+
+  /* our services section start */
+  #ourServices .cards .card {
+    width: 100%;
+  }
+  #ourPortfolio .products .inner {
+    width: 100%;
+  }
+  /* our services section end */
+
+  /* facts section start */
+  #facts .container .outer .fact {
+    width: 100%;
+  }
+  /* facts section end */
+
+  /* feedback section start */
+  #feedback .container {
+    width: 90%;
+  }
+  #feedback .container .card .inner .img {
+    width: 40%;
+  }
+  #feedback .container .card .inner .info {
+    width: 100%;
+    padding-left: 0px;
+  }
+  /* feedback section end */
+
+  /* our blog section start */
+  #blog .container .card {
+    width: 100%;
+  }
+  /* our blog section end */
+
+  /* contact section start */
+  #contact form .inputs .name,
+  #contact form .inputs .email {
+    width: 100%;
+  }
+  #contact form .inputs {
+    width: 100%;
+  }
+  /* contact section end */
+}
